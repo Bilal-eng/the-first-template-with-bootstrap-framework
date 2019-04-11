@@ -2,6 +2,16 @@ body {
     padding-top: 70px
 }
 
+/** 
+    Start Overriding Bootstrap
+*/
+
+/* Main Navbar */
+
+.navbar {
+    min-height: 70px
+}
+
 /* Active Link */
 
 .navbar-inverse .navbar-nav > .active > a, 
@@ -13,30 +23,86 @@ body {
 /* Navbar Link */
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #BBB
+    color: #BBB;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px
 }
 
 /* Brand Name */
 
 .navbar-inverse .navbar-brand {
-    color: #BBB
+    color: #BBB;
+    font-size: 30px;
+    line-height: 40px
+}
+
+.navbar-inverse .navbar-brand span {
+    color: #E41B17
 }
 
 /* Dropdown Menu */
 
 .dropdown-menu {
     background-color: #333;
-    border-top: 3px solid #E41B17
+    border-top: 3px solid #E41B17;
+    min-width: 200px
+}
+
+.navbar-right .dropdown-menu {
+    left: 0;
+    right: auto
 }
 
 .dropdown-menu > li > a {
-    color: #FFF
+    color: #FFF;
+    padding: 6px 20px;
+    -webkit-transition: padding .5s ease;
+    -moz-transition: padding .5s ease;
+    -o-transtition: padding .5s ease;
+    transition: padding .5s ease
 }
 
 .dropdown-menu > li > a:hover, 
 .dropdown-menu > li > a:focus {
     background-color: #E41B17;
-    color: #FFF
+    color: #FFF;
+    padding-left: 25px
+}
+
+.dropdown-menu .divider {
+    background-color: #871818
+}
+
+/* Navbar Toggle */
+
+.navbar-toggle {
+    margin-top: 20px
+}
+
+/* Carousel */
+
+.carousel-caption {
+    bottom: 120px;
+    background: rgba(3, 3, 3, .3);
+    padding-right: 25px;
+    padding-left: 25px
+}
+
+.carousel-indicators {
+    bottom: 0
+}
+
+.carousel-indicators li {
+    height: 15px;
+    width: 15px;
+    border: 1px solid #EEE    
+}
+
+.carousel-indicators .active {
+    width: 17px;
+    height: 17px;
+    background: #E41B17
 }
 
 
