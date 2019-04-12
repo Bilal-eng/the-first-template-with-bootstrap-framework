@@ -1,5 +1,6 @@
 body {
-    padding-top: 70px
+    padding-top: 70px;
+    height: 4000px
 }
 
 /** 
@@ -104,6 +105,25 @@ body {
     height: 17px;
     background: #E41B17
 }
+
+/* Start About Seciton */
+
+.about {
+    padding-top: 60px;
+    padding-bottom: 60px
+}
+
+.about .lead {
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px
+}
+
+.about h1 span {
+    color: #E41B17
+}
+
+/* End About Section */
 
 
 
