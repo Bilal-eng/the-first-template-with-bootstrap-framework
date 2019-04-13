@@ -166,6 +166,65 @@ body {
 
 /* Start Features Section */
 
+/* Start Testimonials Section */
+
+.testimonials {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.testimonials h1 {
+    font-weight: bold;
+    margin-bottom: 20px
+}
+
+.testimonials .lead {
+    line-height: 2em;
+    margin-bottom: 10px
+}
+
+.testimonials span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #E41B17
+}
+
+.testimonials .carousel-inner {
+    min-height: 160px
+}
+
+.testimonials .carousel-indicators {
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px
+}
+
+.testimonials .carousel-indicators li {
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: .4;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+    transition: all .5s ease
+}
+
+.testimonials .carousel-indicators li.active {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    background: none;
+    border: 3px solid #E41B17
+}
+
+.testimonials .carousel-indicators li img {
+    max-width: 100%
+}
+
+/* End Testimonials Section */
 
 
 
