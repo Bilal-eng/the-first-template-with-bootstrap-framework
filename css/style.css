@@ -338,15 +338,51 @@ body {
     border-radius: 0
 }
 
-
-
-
-
-
-
-
 /* End Subscribe Section */
 
+/* Start Statistics */
+
+.statistics {
+    background: url('../images/stats.jpg') no-repeat center center fixed;
+    min-height: 300px
+}
+
+.statistics .data {
+    background: rgba(2, 2, 2, .8);
+    color: #B6B5B5;
+    min-height: 300px;
+    padding-top: 50px;
+    padding-bottom: 70px
+}
+
+.statistics h1 {
+    margin-bottom: 60px
+}
+
+.statistics .stats {
+    margin-bottom: 30px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+
+}
+
+.statistics .stats:hover {
+    color: #FFF;
+}
+
+.statistics p {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0
+}
+
+.statistics span {
+    font-size: 18px
+}
+
+/* End Statistics */
 
 
 
