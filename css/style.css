@@ -119,11 +119,43 @@ body {
     margin-top: 15px
 }
 
+.about h1 {
+    font-weight: bold
+}
+
 .about h1 span {
     color: #E41B17
 }
 
 /* End About Section */
+
+/* Start Features Section */
+
+.features {
+    background: #EEE;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.features .feat {
+    margin-bottom: 30px
+}
+
+.features h1 {
+    margin-bottom: 50px
+}
+
+.features .feat span.glyphicon {
+    font-size: 25px;
+    color: #676767;
+    margin-bottom: 10px
+}
+
+.features .feat p {
+    line-height: 2em
+}
+
+/* Start Features Section */
 
 
 
