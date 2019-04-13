@@ -142,7 +142,7 @@ body {
     padding: 10px;
     margin-bottom: 30px;
     border-radius: 10px;
-    transition: all .7s ease-in-out
+    transition: all .4s ease-in-out
 }
 
 .features .feat:hover {
