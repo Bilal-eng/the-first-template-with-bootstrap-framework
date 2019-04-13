@@ -289,7 +289,11 @@ body {
 
 .our_team {
     background: url('../images/team.jpg') no-repeat center center fixed;
-    min-height: 600px
+    min-height: 600px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
 }
 
 .our_team .team {
@@ -344,7 +348,11 @@ body {
 
 .statistics {
     background: url('../images/stats.jpg') no-repeat center center fixed;
-    min-height: 300px
+    min-height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
 }
 
 .statistics .data {
@@ -383,10 +391,6 @@ body {
 }
 
 /* End Statistics */
-
-
-
-
 
 
 
