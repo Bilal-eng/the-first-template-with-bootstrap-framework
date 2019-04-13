@@ -1,6 +1,6 @@
 body {
     padding-top: 70px;
-    height: 4000px
+    height: 6000px
 }
 
 /** 
@@ -285,6 +285,30 @@ body {
 
 /* End Price Table Section */
 
+/* Start Our Team Section */
+
+.our_team {
+    background: url('../images/team.jpg') no-repeat center center fixed;
+    min-height: 600px
+}
+
+.our_team .team {
+    background: rgba(2, 2, 2, .8);
+    min-height: 600px;
+    color: #FFF;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.our_team h1 {
+    margin-bottom: 60px
+}
+
+.our_team .team .person {
+    margin-bottom: 40px
+}
+
+/* End Our Team Section */
 
 
 
