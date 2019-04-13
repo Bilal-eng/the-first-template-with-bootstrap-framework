@@ -310,6 +310,42 @@ body {
 
 /* End Our Team Section */
 
+/* Start Subscribe Section */
+
+.subscribe {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background: #EEE
+}
+
+.subscribe h1 {
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px
+}
+
+.subscribe p {
+    margin-bottom: 30px
+}
+
+.subscribe .form-control {
+    border-radius: 0;
+    margin-right: -5px;
+    width: 300px;
+}
+
+.subscribe button {
+    border-radius: 0
+}
+
+
+
+
+
+
+
+
+/* End Subscribe Section */
 
 
 
