@@ -138,7 +138,7 @@ body {
 }
 
 .features .feat {
-    border: 1px solid #ccc;
+    border: 1px solid #DDD;
     padding: 10px;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -226,6 +226,64 @@ body {
 
 /* End Testimonials Section */
 
+/* Start Price Table Section */
+
+.price_table {
+    background: #EEE;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.price_table h1 {
+    margin-bottom: 40px
+}
+
+.price_table .price_box {
+    background: #FFF;
+    padding: 10px;
+    border: 1px solid #DDD;
+    margin-bottom: 15px;
+    
+}
+
+.price_table .price_box h2 {
+    margin: 5px 0 15px
+}
+
+.price_table .price_box:hover p {
+    -webkit-transform: scale(1.1,1.1) rotate(360deg);
+    -moz-transform: scale(1.1,1.1) rotate(360deg);
+    -o-transform: scale(1.1,1.1) rotate(360deg);
+    transform: scale(1.1,1.1) rotate(360deg);
+    border: 2px solid #DFDFDF
+}
+
+.price_table .price_box p {
+    font-size: 35px;
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    background: #F3F3F3;
+    border-radius: 50%;
+    line-height:100px;
+    border: 2px solid #FFF;
+    -webkit-transition-duration: .8s;
+    -moz-transition-duration: .8s;
+    -o-transition-duration: .8s;
+    transition-duration: .8s;
+}
+
+.price_table .price_box ul {
+    line-height: 250%;
+    font-size: 18px
+}
+
+.price_table .price_box a {
+    margin-bottom: 5px
+}
+
+/* End Price Table Section */
 
 
 
