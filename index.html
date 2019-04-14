@@ -435,19 +435,37 @@
 
     <!-- Start Our Skills Section -->
 
-    <section class="our-skills text-center">
+    <section class="our-skills">
       <div class="container">
-        <h1>Our Skills</h1>
+        <h1 class="text-center">Our Skills</h1>
         <div class="row">
 
           <!-- Start Progress Skills -->
 
           <div class="col-md-5">
             <div class="skills-progress">
+
               <div class="progress">
                 <div class="progress-bar progress-bar-success" role="progressbar"
-                aria-valuenow="80" aria-valuemin="0"></div>
+                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+                style="width: 80%">Html5 / Css3</div>
               </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-danger" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                style="width: 75%">PHP / MySQL</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-warning" role="progressbar"
+                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                style="width: 60%">Javascript / JQuery</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-info" role="progressbar"
+                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                style="width: 90%">Wordpress</div>
+              </div>
+
             </div>
           </div>
 
@@ -456,17 +474,65 @@
           <!-- Start Team Info -->
 
           <div class="col-md-6 col-md-offset-1">
-            Team Info
+            <div class="skills-info">
+              <h3>About The Team</h3>
+              <p class="lead">
+                We Are Specialised Desiging And Programming Team Passionate About Web Design And Creatin Digital Ideas We Will Transfer Your Idea To A Digital Dream And Make Your Wish Come True
+              </p>
+              <button type="button" class="btn btn-primary">Talk With Professional</button>
+            </div>
           </div>
-  
+          
           <!-- End Team Info -->
-
 
         </div>
       </div>
     </section>
 
     <!-- Start Our Skills Section -->
+
+    <!-- Start Contact Us Section -->
+
+    <section class="contact-us text-center">
+      <div class="fields">
+        <div class="container">
+          <div class="row">
+            <i class="fas fa-headphones fa-5x"></i>
+            <h1>Tell Us What You Fell</h1>
+            <p class="lead">Feel Free To Contact Us Anytime</p>
+
+            <!-- Start Contact Form -->
+
+            <form role="form">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control input-lg" placeholder="username">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control input-lg" placeholder="email">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control input-lg" placeholder="cell phone">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <textarea class="form-control input-lg" placeholder="your message"></textarea>
+                </div>
+                <button type="button" class="btn btn-danger input-lg btn-block">Contact Us</button>
+              </div>
+            </form>
+
+          <!-- End Contact Form -->
+          </div>  
+
+        </div>
+      </div>    
+    </section>
+      
+    <!-- End Contact Us Section -->
+
+
 
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
