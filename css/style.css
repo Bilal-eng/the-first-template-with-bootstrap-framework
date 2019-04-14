@@ -458,6 +458,28 @@ body {
 
 /* End Contact Us Section */
 
+/* Start Our Clients Section */
+
+.our-clients {
+    background: #EEE;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.our-clients img {
+    opacity: .4;
+    filter: alpha(opacity="40");
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all .5s ease-in-out
+}
+
+.our-clients img:hover {
+    opacity: 1
+}
+
+/* End Our Clients Section */
+
 
 
 
