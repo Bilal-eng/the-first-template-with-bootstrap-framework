@@ -16,14 +16,6 @@ h1, h2, h3, h4, h5, .lead {
     min-height: 70px
 }
 
-/* Active Link */
-
-.navbar-inverse .navbar-nav > .active > a, 
-.navbar-inverse .navbar-nav > .active > a:hover, 
-.navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: #E41B17
-}
-
 /* Navbar Link */
 
 .navbar-inverse .navbar-nav > li > a {
@@ -41,15 +33,10 @@ h1, h2, h3, h4, h5, .lead {
     line-height: 40px
 }
 
-.navbar-inverse .navbar-brand span {
-    color: #E41B17
-}
-
 /* Dropdown Menu */
 
 .dropdown-menu {
     background-color: #333;
-    border-top: 3px solid #E41B17;
     min-width: 200px
 }
 
@@ -69,7 +56,6 @@ h1, h2, h3, h4, h5, .lead {
 
 .dropdown-menu > li > a:hover, 
 .dropdown-menu > li > a:focus {
-    background-color: #E41B17;
     color: #FFF;
     padding-left: 25px
 }
@@ -105,9 +91,45 @@ h1, h2, h3, h4, h5, .lead {
 
 .carousel-indicators .active {
     width: 17px;
-    height: 17px;
-    background: #E41B17
+    height: 17px
 }
+
+/* End Overriding Bootstrap */
+
+/* Start Tool Box Section */
+
+.option-box {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: 9999
+}
+
+.option-box .color-option {
+    float: left;
+    background: #333;
+    color: #FFF;
+    padding: 10px;
+    width: 200px;
+    display: none
+}
+
+.option-box .color-option ul li {
+    width: 20px;
+    height: 20px;
+    background: #F00;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.option-box .gear-check {
+    padding: 5px;
+    color: #FFF;
+    cursor: pointer
+}
+
+/* End Tool Box Section */
+
 
 /* Start About Seciton */
 
@@ -124,10 +146,6 @@ h1, h2, h3, h4, h5, .lead {
 
 .about h1 {
     font-weight: bold
-}
-
-.about h1 span {
-    color: #E41B17
 }
 
 /* End About Section */
@@ -149,7 +167,6 @@ h1, h2, h3, h4, h5, .lead {
 }
 
 .features .feat:hover {
-    background: #E41B17;
     cursor: pointer;
     color: #FFF
 }
@@ -188,8 +205,7 @@ h1, h2, h3, h4, h5, .lead {
 
 .testimonials span {
     font-size: 18px;
-    font-weight: bold;
-    color: #E41B17
+    font-weight: bold
 }
 
 .testimonials .carousel-inner {
@@ -219,8 +235,7 @@ h1, h2, h3, h4, h5, .lead {
     width: 80px;
     height: 80px;
     opacity: 1;
-    background: none;
-    border: 3px solid #E41B17
+    background: none
 }
 
 .testimonials .carousel-indicators li img {
@@ -500,7 +515,6 @@ h1, h2, h3, h4, h5, .lead {
 }
 
 .footer h3 {
-    color: #0194F5;
     letter-spacing: 1px;
     margin: 30px 0 20px 
 }
@@ -544,10 +558,6 @@ h1, h2, h3, h4, h5, .lead {
     padding: 15px 0;
     margin-top: 20px;
     font-size: 18px
-}
-
-.footer .copyright span {
-    color: #0194F5
 }
 
 /* End Footer Section */
