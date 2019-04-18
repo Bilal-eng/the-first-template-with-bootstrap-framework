@@ -26,3 +26,20 @@ $(document).ready(function(){
         $('link[href*="theme"]').attr('href', $(this).attr('data-value'));
     });
 });
+
+// Loadding Screen
+
+$(window).load(function(){
+    // Loading Element
+
+    $('.loading-overlay .spinner').fadeOut(1000, function(){
+        $(this).parent().fadeOut(1000, function(){
+            
+            // Show The Scroll
+            // $('body').css('overflow', 'auto');
+
+            $(this).remove();
+        });
+    });
+
+});
