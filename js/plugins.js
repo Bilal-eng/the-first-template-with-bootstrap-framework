@@ -25,6 +25,19 @@ $(document).ready(function(){
     colorLi.click(function(){
         $('link[href*="theme"]').attr('href', $(this).attr('data-value'));
     });
+
+    // Caching The Scroll Top Element
+    var scrollButton = $('#scroll-top');
+    $(window).scroll(function(){
+        $(this).scrollTop() >= 700 ? scrollButton.show(500) : scrollButton.hide(500);
+    });
+    // Click On The Button To Scroll Top
+    scrollButton.click(function(){
+        $('html, body').animate({
+            scrollTop: 0
+        }, 1000);
+    });
+
 });
 
 // Loadding Screen
@@ -36,7 +49,7 @@ $(window).load(function(){
         $(this).parent().fadeOut(1000, function(){
             
             // Show The Scroll
-            // $('body').css('overflow', 'auto');
+            $('body').css('overflow', 'auto');
 
             $(this).remove();
         });

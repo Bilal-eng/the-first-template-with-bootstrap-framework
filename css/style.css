@@ -1,6 +1,6 @@
 body {
     padding-top: 70px;
-    /* overflow: hidden */
+    overflow: hidden
 }
 
 h1, h2, h3, h4, h5, .lead {
@@ -605,3 +605,26 @@ h1, h2, h3, h4, h5, .lead {
   }
 
 /* End Loading Section */
+
+/* Start Scroll To Top Section */
+
+#scroll-top {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    color: #DDD;
+    background-color: #272727;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 9999;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    display: none
+}
+
+#scroll-top:hover {
+    background-color: #444
+}
+
+/* End Scroll To Top Section */
