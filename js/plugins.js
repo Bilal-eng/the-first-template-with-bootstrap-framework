@@ -1,14 +1,11 @@
 $(document).ready(function(){
-
     $('.carousel').carousel({
-
         interval: 6000
     });
 
     // Show Color Option Div When Click On The Gear
 
     $('.gear-check').click(function(){
-
         $('.color-option').toggle(200);
     });
 
@@ -46,13 +43,9 @@ $(window).load(function(){
     // Loading Element
 
     $('.loading-overlay .spinner').fadeOut(1000, function(){
+        $('body').css('overflow', 'auto');
         $(this).parent().fadeOut(1000, function(){
-            
-            // Show The Scroll
-            $('body').css('overflow', 'auto');
-
             $(this).remove();
         });
     });
-
 });
