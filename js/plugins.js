@@ -1,4 +1,7 @@
 $(document).ready(function(){
+    // Nice Scroll
+    $('html').niceScroll();
+    
     $('.carousel').carousel({
         interval: 6000
     });
