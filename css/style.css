@@ -480,3 +480,24 @@ h1, h2, h3, h4, h5, .lead { font-family: 'Droid Sans', sans-serif }
 .our-clients { padding-top: 60px; padding-bottom: 60px }
 
 /* End Our Grouping System */
+
+/* Start Smart Phones And Tablets */
+
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+
+    .subscribe .form-control {
+        margin: 20px auto;
+        width: 300px
+    }
+
+    .navbar-fixed-top .navbar-collapse, 
+    .navbar-fixed-bottom .navbar-collapse {
+        max-height: none
+    }
+}
+
+/* End Smart Phones And Tablets */
