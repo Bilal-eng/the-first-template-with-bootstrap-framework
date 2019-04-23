@@ -40,6 +40,8 @@ $(document).ready(function(){
 
 });
 
+$('.panel .first-element').removeClass('collapsed');
+
 // Loadding Screen
 
 $(window).load(function(){
